@@ -57,7 +57,7 @@ async function start() {
 
 function loadLabeledImages() {
   console.log('quantas vezes executa?');
-  const labels = ['GuilhermeA'];
+  const labels = ['GuilhermeA', 'Mestre', 'Idosinha'];
   return Promise.all(
     labels.map(async (label) => {
       const descriptions = [];
