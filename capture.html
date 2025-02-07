@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webcam Take Picture</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+    <script defer src="script/capture.js"></script>
+  </head>
+  <body>
+    <canvas id="canvas" style="display: none"></canvas>
+
+    <div class="video-container">
+      <video id="video" width="100%" autoplay muted></video>
+      <div class="face-position"></div>
+    </div>
+
+    <button id="capture">Capturar Foto</button>
+    <img id="photo" alt="Foto Capturada" />
+  </body>
+</html>
